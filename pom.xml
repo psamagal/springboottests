@@ -44,7 +44,7 @@
 
     <build>
         <plugins>
-     <!--       <plugin>
+            <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>buildnumber-maven-plugin</artifactId>
                 <version>1.4</version>
@@ -60,7 +60,7 @@
                     <doCheck>true</doCheck>
                     <doUpdate>true</doUpdate>
                 </configuration>
-            </plugin>-->
+            </plugin>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
